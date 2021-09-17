@@ -73,21 +73,23 @@ python3 wifi_plot.py wifi_2021-09-16T12_02_16.json
 
 ### Modifications
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
+Although not many modifications were made because the code was given, we did make 2 small changes in order to increase functionality and get a feel for using Raspberry Pi. 
 
+First, we added to the bluetooth.discover_devices command in [bt_scan.py](bt_scan.py), so that the script also returned the device name in addition to the bluetooth address.
 
+```sh
+disc_devs = bluetooth.discover_devices(duration=5, lookup_names=True) 
+```
 
+This was done primarily to see what devices we were detecting to get a feel for how the script operated. Namely, how the script only picked up on our phones and laptops when they were actively looking to connect to a bluetooth device. 
+
+The second addition was to [wifi_plot.py](wifi_plot.py). We added more labels to the plot, so it looked more professional and easy to understand. 
+
+```sh
+matplotlib.pyplot.xlabel("Time (Day of the Month/Hour/Minute)")
+    matplotlib.pyplot.ylabel("Number of Hotspots")
+    matplotlib.pyplot.title("Hotspots over time in Photonics")
+    matplotlib.pyplot.show()
+```
 <!-- Data & Analysis EXAMPLES -->
 ## Data and Analysis
