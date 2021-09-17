@@ -53,7 +53,9 @@ Here are our intended features:
 
 ### Raspberry Pi
 
-Addressing why choose raspberry pi and its performance & attachments
+Addressing why choose raspberry pi and its performance & attachments:
+
+Raspberry Pi is a powerful embeded system for educational researches and Pi 4's design offers capability to connect to monitors for better visualization. Raspberry Pi OS is Python supported and it helps us to be familar to Python and its basic packages.
 
 
 <!-- GETTING STARTED -->
