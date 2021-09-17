@@ -46,9 +46,10 @@
 Basic Intro of background:
 
 Here are our intended features:
-* xxxx
-* xxxx
-* xxxx
+* detect Bluetooth legacy devices in the area
+* detect BlE devices in the area
+* detect wifi hotspots over time and put into a JSON file
+* plot wifi hotspots over time
 
 
 ### Raspberry Pi
@@ -61,16 +62,14 @@ Raspberry Pi is a powerful embeded system for educational researches and Pi 4's 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+One of the main difficulties we had when setting up the Raspberry Pi was getting the correct setup. As an example, we tried to use a macbook as our monitor, but soon found that would not work, so we had to adapt and get a monitor with an HDMI cable to interact with the UI for the Raspberry Pi. Additionally, after setting up the SSH with the wifi on an on campus apartment. We had difficulties using the SSH from one of the BU dorms, namely because the wifi router at the apartment did not allow the computer in the dorm to connect.
+
+In addition, we learned a lot about the syntax for the Raspberry Pi and Python 3 specifically. There were many times the code was not working because we were ussing the incorrect syntax. When running [wifi_plot.py](wifi_plot.py), the file was not working because an argument had to be called for the filename when executing the script. 
+```sh
+python3 wifi_plot.py wifi_2021-09-16T12_02_16.json
+```
 
 ### Modifications
 
