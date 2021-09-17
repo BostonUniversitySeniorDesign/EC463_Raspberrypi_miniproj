@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-We decided to offer our Raspberry Pi with a wifi and bluetooth probe feature: it can collect WiFi hotspots' and bluetooth devices' communication requests within a specfic range. Note: all code was provided by Professor Michael Hersch, PhD, from Boston University. We were responsible for using his code on the Raspberry Pi to get some understanding of the Pi's functionality.
+We decided to offer our Raspberry Pi with a wifi and bluetooth probe feature: it can collect WiFi hotspots' and bluetooth devices' communication requests within a specfic range. 
 
 Here are our intended features:
 * detect Bluetooth legacy devices in the area with its device name
@@ -93,3 +93,5 @@ matplotlib.pyplot.show()
 ```
 <!-- Data & Analysis EXAMPLES -->
 ## Data and Analysis
+
+![wifi-plot](https://github.com/yixiuzhu/EC463_Raspberrypi_miniproj/blob/main/wifi_plot_Figure.png?raw=true)
