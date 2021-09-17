@@ -87,9 +87,9 @@ The second addition was to [wifi_plot.py](wifi_plot.py). We added more labels to
 
 ```sh
 matplotlib.pyplot.xlabel("Time (Day of the Month/Hour/Minute)")
-    matplotlib.pyplot.ylabel("Number of Hotspots")
-    matplotlib.pyplot.title("Hotspots over time in Photonics")
-    matplotlib.pyplot.show()
+matplotlib.pyplot.ylabel("Number of Hotspots")
+matplotlib.pyplot.title("Hotspots over time in Photonics")
+matplotlib.pyplot.show()
 ```
 <!-- Data & Analysis EXAMPLES -->
 ## Data and Analysis
