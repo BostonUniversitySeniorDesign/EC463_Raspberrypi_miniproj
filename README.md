@@ -43,7 +43,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Basc Intro of background:
+Basic Intro of background:
 
 Here are our intended features:
 * xxxx
@@ -53,9 +53,7 @@ Here are our intended features:
 
 ### Raspberry Pi
 
-Addressing why choose raspberry pi and its performance & attachments:
-
-Raspberry Pi is a powerful embeded system for educational researches and Pi 4's design offers capability to connect to monitors for better visualization. Raspberry Pi OS is Python supported and it helps us to be familar to Python and its basic packages. 
+Addressing why choose raspberry pi and its performance & attachments
 
 
 <!-- GETTING STARTED -->
@@ -72,7 +70,7 @@ This is an example of how to list things you need to use the software and how to
   npm install npm@latest -g
   ```
 
-### Installation
+### Modifications
 
 1. Get a free API Key at [https://example.com](https://example.com)
 2. Clone the repo
