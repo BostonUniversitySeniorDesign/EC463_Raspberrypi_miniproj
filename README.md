@@ -95,3 +95,5 @@ matplotlib.pyplot.show()
 ## Data and Analysis
 
 ![wifi-plot](https://github.com/yixiuzhu/EC463_Raspberrypi_miniproj/blob/main/wifi_plot_Figure.png?raw=true)
+
+The Figure plots the hotspot traffic near the highway for 10 minutes. Data was collected in PHO 111 near the highway, which means there were likely some stationary devices in photonics that interfered with the traffic data. As seen in the figure, early in the data collection, there was more traffic, while traffic dissipated near the end. The code could be updated in order to separate out wifi hotspots that are stationary and those that are moving (ie. the cars moving in the highway). 
