@@ -43,13 +43,13 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Basic Intro of background:
+We decided to offer our Raspberry Pi with a wifi and bluetooth probe feature: it can collect WiFi hotspots' and bluetooth devices' communication requests within a specfic range. 
 
 Here are our intended features:
-* detect Bluetooth legacy devices in the area
-* detect BlE devices in the area
+* detect Bluetooth legacy devices in the area with its device name
+* detect BlE devices in the area with its device name
 * detect wifi hotspots over time and put into a JSON file
-* plot wifi hotspots over time
+* plot wifi hotspots over time ("Passenger flow volume detection") 
 
 
 ### Raspberry Pi
