@@ -8,6 +8,7 @@
 
   <p align="center">
     A Raspberry Pi with Wifi & Bluetooth Probe Feature 
+  Jonas Escobar and Yixiu Zhu
     <br />
     <a href="https://github.com/BostonUniversitySeniorDesign/2021-hardware-miniproj"><strong>Explore the docs »</strong></a>
     <br />
