@@ -62,7 +62,7 @@ Raspberry Pi is a powerful embeded system for educational researches and Pi 4's 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Prerequisites
+### Difficulties
 
 One of the main difficulties we had when setting up the Raspberry Pi was getting the correct setup. As an example, we tried to use a macbook as our monitor, but soon found that would not work, so we had to adapt and get a monitor with an HDMI cable to interact with the UI for the Raspberry Pi. Additionally, after setting up the SSH with the wifi on an on campus apartment. We had difficulties using the SSH from one of the BU dorms, namely because the wifi router at the apartment did not allow the computer in the dorm to connect.
 
